@@ -1,0 +1,15 @@
+$kind: http-request
+order: 4000
+url: '{{base_url}}'
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "department": "Engineering",
+      "salary": 55000
+    }

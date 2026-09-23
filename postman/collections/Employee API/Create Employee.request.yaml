@@ -1,0 +1,14 @@
+$kind: http-request
+order: 3000
+url: '{{base_url}}'
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "department": "Engineering",
+      "salary": 50000
+    }

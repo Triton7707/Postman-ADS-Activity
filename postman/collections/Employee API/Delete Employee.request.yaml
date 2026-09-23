@@ -1,0 +1,10 @@
+$kind: http-request
+order: 5000
+url: '{{base_url}}'
+method: DELETE
+body:
+  type: json
+  content: |-
+    {
+      "id": 1
+    }
